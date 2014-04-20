@@ -260,7 +260,7 @@ class ConvertPlugin(BeetsPlugin):
                     u'extension': u'm4a',
                 },
                 u'alac': {
-                    u'command': u'ffmpeg -i $source -y -acodec alac $dest',
+                    u'command': u'ffmpeg -i $source -y -vn -acodec alac $dest',
                     u'extension': u'm4a',
                 },
                 u'flac': {
